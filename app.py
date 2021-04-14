@@ -9,7 +9,7 @@ from modules.graphs_page import run_graphs
 #Set app name and emoji displayed in browser tab
 st.set_page_config(page_title="Data Scientists", page_icon="bar_chart")
 
-#title of my app and breif description
+#title of my app and brief description
 st.title("Data Science on Data Scientists")
 st.subheader("Let's take a look at some data on actual Data Scientists! Time to get meta :face_with_monocle:")
 
