@@ -6,6 +6,9 @@ def run_home(data):
     st.write("""Lets look at the data.""")
     st.dataframe(data)
 
+    slider_value = st.slider("pick a number")
+    st.write(slider_value)
+
     st.subheader("Features of the data")
     st.write("""
 * **enrollee_id:** Unique ID for candidate
