@@ -5,6 +5,7 @@ to show how easy it is to create and share an app to Streamlit Sharing.
 
 ## Directories
 **data/:** holds the data used in the App
+
 **modules/:** holds the python files for the 3 "pages" of my Streamlit app
 - **home_page.py:** has the code to generate the landing page for the App
 - **pandas_page.py:** has the code to use the pandas profiling Streamlit component
