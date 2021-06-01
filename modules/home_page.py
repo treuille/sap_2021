@@ -8,8 +8,8 @@ def run_home(data):
 
     # slider_value = st.slider("pick a number", 0, len(data), (0,500), 500)
     # st.write(slider_value,slider_value[0],slider_value[1])
-
-    #display_data.dataframe(data.loc[slider_value[0]:slider_value[1]])
+    #
+    # display_data.dataframe(data.loc[slider_value[0]:slider_value[1]])
     display_data.dataframe(data)
 
     st.subheader("Features of the data")
